@@ -19,3 +19,4 @@ gcc -o "${asm_file%.s}" "${asm_file%.s}.o" -nostdlib -static
 
 # Remove unnecessary files
 rm "${asm_file%.s}.o"
+rm ".o"
